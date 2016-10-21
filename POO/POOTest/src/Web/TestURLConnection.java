@@ -8,7 +8,7 @@ public class TestURLConnection {
     public static void main(String [] args){
         String donnees;
         try{
-            URL monURL = new URL("file:///home/pingwin/Documents/CNAM_2016_2017/test.html");
+            URL monURL = new URL("file:///home/pingwin/Documents/CNAM_2016_2017/POO/POOTest/test.html");
             URLConnection connexion = monURL.openConnection();
             InputStream flux = connexion.getInputStream();
             int donneesALire = connexion.getContentLength();
