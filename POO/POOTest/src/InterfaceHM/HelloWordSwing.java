@@ -1,4 +1,4 @@
-/**
+package InterfaceHM; /**
  * Created by pingwin on 21/10/16.
  */
 import javax.swing.*;

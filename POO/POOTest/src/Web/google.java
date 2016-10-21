@@ -1,4 +1,4 @@
-/**
+package Web; /**
  * Created by pingwin on 21/10/16.
  */
 import java.net.URL;
@@ -9,7 +9,7 @@ public class google {
         final JEditorPane editeur;
         JPanel pannel = new JPanel();
         try{
-            editeur = new JEditorPane(new URL("http://google.fr"));
+            editeur = new JEditorPane(new URL("http://Web.google.fr"));
             editeur.setEditable(false);
             editeur.addHyperlinkListener(new HyperlinkListener() {
                 @Override

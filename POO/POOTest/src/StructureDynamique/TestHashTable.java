@@ -1,3 +1,5 @@
+package StructureDynamique;
+
 import java.util.*;
 
 /**
