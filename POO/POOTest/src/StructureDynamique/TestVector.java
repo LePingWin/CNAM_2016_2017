@@ -1,4 +1,4 @@
-/**
+package StructureDynamique; /**
  * Created by pingwin on 21/10/16.
  */
 import java.util.*;
