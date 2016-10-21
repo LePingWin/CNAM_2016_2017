@@ -7,6 +7,12 @@ import java.net.*;
  */
 public class TestClientUDP {
     static byte buffer[] = new byte[512];
+
+    /**
+     * @author LePingWin
+     * @param argv Adresse suivi du message [addr][msg]
+     * @throws Exception
+     */
     public static void main(String argv[]) throws Exception{
         try{
             InetAddress ser = InetAddress.getByName(argv[0]);
