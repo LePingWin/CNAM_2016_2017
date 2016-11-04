@@ -4,13 +4,28 @@
 #include <iostream>
 using namespace std;
 
+void swapC(int *a, int *b) {
+	int c = *a;
+	*a = *b;
+	*b = c;
+}
+
+void swapCPP(int &a, int &b) {
+	int c = a;
+	a = b;
+	b = c;
+}
+
 int main()
 {
-	int i = 8;
-	std::cout << "Valeur de i:" << i << std::endl;
-	std:cerr << "i=" << i << std::endl;
-	string str;
+	int i = 8, j = 6, &k = j;
+	cout << j << " " << k++ << endl;
+	cout << j << " " << k << endl;
+	swapC(&i, &j);
+	cout << j << " " << k << endl;
+	swapCPP(i, j);
+	cout << j << " " << k << endl;
 	int a;
-	std::cin >> a;
+	cin >> a;
 }
 

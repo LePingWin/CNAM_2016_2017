@@ -1,4 +1,3 @@
-package View;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -22,33 +21,15 @@ public class ZoneJeu extends JComponent implements ActionListener, MouseListener
 
 	public ZoneJeu(Terrain terrain) {
 		addMouseListener(this);
-		// ajoute une bille par dï¿½faut
+		// ajoute une bille par défaut
 		add(new Bille(Color.red,30), new Point(10,10));
 		this.terrain = terrain;
-		Thread tr = new Thread(){
-			public void run(){
-				while (true){
-					repaint();
-					try {
-						Thread.sleep(20);
-					} catch (InterruptedException e) {
-						e.printStackTrace();
-					}
-				}
-			}
-		};
-		//tr.setDaemon(true);
-		tr.start();
+		Timer timer = new Timer(30, this);
+		timer.start();
 	}
 
 	public void actionPerformed(ActionEvent arg0) {
-			Thread.currentThread().notify();
-		repaint();
-		try {
-			Thread.currentThread().wait();
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
+		repaint();	
 	}	
 	public void paint(Graphics g) {
 		terrain.paint(g);
@@ -60,12 +41,11 @@ public class ZoneJeu extends JComponent implements ActionListener, MouseListener
 		for (int i = 0 ; i < billes.size() ; i++) {
 			Point p = pos.get(i);
 			Point m = pmouv.get(i);
-			// diminue le dï¿½placement de temps en temps
+			// diminue le déplacement de temps en temps
 			if ((new Random()).nextBoolean() &&
 					(new Random()).nextBoolean()
 					) {
 				boolean oneMove = (m.y==0 || m.x==0)?true:false;
-
 				if (m.x>0)
 					m.x--;
 				else if (m.x<0)
@@ -84,7 +64,7 @@ public class ZoneJeu extends JComponent implements ActionListener, MouseListener
 			Point nouv = new Point(p.x + m.x, p.y + m.y);
 			int margin = billes.get(i).getTaille();
 			
-			// vï¿½rifie le mouvement en X
+			// vérifie le mouvement en X
 			if (nouv.x < 0) {
 				m.x = m.x * -1;
 				nouv = new Point(p.x + m.x, p.y + m.y);
@@ -94,7 +74,7 @@ public class ZoneJeu extends JComponent implements ActionListener, MouseListener
 				nouv = new Point(p.x + m.x, p.y + m.y);
 			}
 			
-			// vï¿½rifie le mouvement en Y
+			// vérifie le mouvement en Y
 			if (nouv.y < 0) {
 				m.y = m.y * -1;
 				nouv = new Point(p.x + m.x, p.y + m.y);
