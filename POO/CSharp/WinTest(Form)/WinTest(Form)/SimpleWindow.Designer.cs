@@ -1,6 +1,6 @@
 ﻿namespace WinTest_Form_
 {
-    partial class Form1
+    partial class SimpleWindow
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
