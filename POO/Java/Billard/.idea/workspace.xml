@@ -614,7 +614,7 @@
       <workItem from="1478265999860" duration="4634000" />
       <workItem from="1478272964452" duration="2405000" />
       <workItem from="1479415454355" duration="21000" />
-      <workItem from="1479453977382" duration="303000" />
+      <workItem from="1479453977382" duration="376000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de la première partie du Jeu de Billard&#10;">
       <created>1478258473875</created>
@@ -634,7 +634,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14988000" />
+    <option name="totallyTimeSpent" value="15061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
