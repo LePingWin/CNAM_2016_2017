@@ -103,12 +103,13 @@ public class Joueur {
      * @return
      */
     private static String formatString(String str){
-        Pattern p = Pattern.compile("\\w*\\S+"); //
+        Pattern p = Pattern.compile("[\\wéèàù]+"); //
         Matcher m = p.matcher(str);
         String str2 ="";
         int i =0;
         while(m.find()){
-            str2 += m.group(i).substring(0, 1).toUpperCase() + m.group(i).substring(1).toLowerCase();
+            if(m.group(i) != " ")
+                str2 += m.group(i).substring(0, 1).toUpperCase() + m.group(i).substring(1).toLowerCase();
             if(i < m.groupCount())
             i++;
         }
