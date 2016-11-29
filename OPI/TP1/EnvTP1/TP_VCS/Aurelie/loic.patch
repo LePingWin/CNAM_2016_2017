@@ -1,0 +1,126 @@
+# HG changeset patch
+# User Loic <jdoe@example.com>
+# Date 1480452985 -3600
+#      Tue Nov 29 21:56:25 2016 +0100
+# Branch LBI-b2
+# Node ID bf778cb7156ecfacc7268527f59e934edf92f73b
+# Parent  3908c692ecd7aa716063f544182afa0a12c8648a
+Ajout etape rapport
+
+diff -r 3908c692ecd7 -r bf778cb7156e src/rapport.rst
+--- a/src/rapport.rst	Tue Nov 29 21:29:43 2016 +0100
++++ b/src/rapport.rst	Tue Nov 29 21:56:25 2016 +0100
+@@ -704,4 +704,112 @@
+     <Julien>~/TP-VCS/Julien $ hg update
+     <Julien>~/TP-VCS/Julien $ hg update LBI-b2
+ 
++ETAPE 50
++---------
+ 
++.. code-block:: sh
++
++     <Julien>~/TP-VCS/Julien $ hg commit -m "MàJ Notes"
++     <Julien>~/TP-VCS/Julien $ hg push
++
++ETAPE 51
++---------
++
++.. code-block:: sh
++
++    <Clement>~/TP-VCS/Clement $ hg pull
++    <Clement>~/TP-VCS/Clement $ hg update
++    <Clement>~/TP-VCS/Clement $ hg update LBI-b1 
++
++ETAPE 52
++---------
++
++.. code-block:: sh
++
++    <Clement>~/TP-VCS/Clement $ hg commit -m "Correction Notes"
++    <Clement>~/TP-VCS/Clement $ hg push
++    pushing to /home/pingwin/Documents/CNAM_2016_2017/OPI/TP1/EnvTP1/TP_VCS/ref
++    searching for changes
++    adding changesets
++    adding manifests
++    adding file changes
++    added 1 changesets with 1 changes to 1 files (+1 heads)
++
++ETAPE 53
++---------
++
++.. code-block:: sh
++
++    <Clement>~/TP-VCS/Clement $ hg diff -r LBI-v1.0
++
++ETAPE 54
++---------
++
++.. code-block:: sh
++
++    <Aurélie>~/TP-VCS/Aurélie $ hg pull
++    <Aurélie>~/TP-VCS/Aurélie $ hg update
++    <Aurélie>~/TP-VCS/Aurélie $ hg update LBI-b1
++    <Aurélie>~/TP-VCS/Aurélie $ hg tag LBI-v1.1
++
++ETAPE 55
++---------
++
++.. code-block:: sh
++
++    <Aurélie>~/TP-VCS/Aurélie $ hg merge LBI-b2
++    merging src/rapport.rst
++    3 fichiers à éditer
++     output file src/rapport.rst appears unchanged
++    was merge successful (yn)? y
++    0 files updated, 1 files merged, 0 files removed, 0 files unresolved
++    (branch merge, don't forget to commit)
++    <Aurélie>~/TP-VCS/Aurélie hg commit -m "Merge on LBI-b2"
++    <Aurélie>~/TP-VCS/Aurélie hg push
++    pushing to /home/pingwin/Documents/CNAM_2016_2017/OPI/TP1/EnvTP1/TP_VCS/ref
++    searching for changes
++    adding changesets
++    adding manifests
++    adding file changes
++    added 2 changesets with 2 changes to 2 files (-1 heads)
++
++ETAPE 56
++---------
++
++.. code-block:: sh
++
++    <Aurélie>~/TP-VCS/Aurélie $ hg log -f #(Historique Complet)
++    <Aurélie>~/TP-VCS/Aurélie $ hg log --graph #(Graphe)
++    <Aurélie>~/TP-VCS/Aurélie $ hg log --stat #(Résumé)
++    <Aurélie>~/TP-VCS/Aurélie $ hg log -v #(Fichiers)
++
++ETAPE 57
++---------
++
++.. code-block:: sh
++
++    <Loic>~/TP-VCS/ $ mkdir Loic
++    <Loic>~/TP-VCS/ $ hg clone ref Loic
++    <Loic>~/TP-VCS/ $ hg update LBI-b2
++
++ETAPE 58
++---------
++
++.. code-block:: sh
++    
++    <Loic>~/TP-VCS/ cd Loic
++    <Loic>~/TP-VCS/Loic $ vi .hg/hgrc
++
++ETAPE 59
++---------
++
++.. code-block:: sh
++
++    <Loic>~/TP-VCS/Loic $ vi .hg/hgrc
++
++ETAPE 60
++---------
++
++.. code-block:: sh
++
++    <Loic>~/TP-VCS/Loic $ vi src/rapport.rst
+\ No newline at end of file

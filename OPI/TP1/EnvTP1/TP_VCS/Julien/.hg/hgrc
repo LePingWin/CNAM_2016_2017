@@ -11,4 +11,7 @@ default = /home/pingwin/Documents/CNAM_2016_2017/OPI/TP1/EnvTP1/TP_VCS/ref
 
 [ui]
 # name and email (local to this repository, optional), e.g.
-# username = Julien <jdoe@example.com>
+username = Julien <jdoe@example.com>
+
+[extensions]
+rebase =
