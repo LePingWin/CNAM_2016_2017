@@ -1,0 +1,50 @@
+#!/bin/sh
+#|-*- mode:lisp -*-|#
+#|
+exec ros -Q -- $0 "$@"
+|#
+
+#|
+
+A Roswell script to compile Parenscript files.
+
+Usage
+-----
+
+    $ compile-parenscript filename...
+
+LICENSE
+-------
+
+MIT/X11.
+
+|#
+
+(unless (find-package :uiop)
+  (ql:quickload '(:uiop) :silent t))
+
+(unless (find-package :parenscript)
+  (ql:quickload '(:parenscript) :silent t))
+
+
+(defun terminate (code &optional message &rest args)
+  (when message
+    (format *error-output* "~&~A~%"
+            (apply #'format nil (princ-to-string message) args)))
+  (uiop:quit code))
+
+
+(defun compile-parenscript-file (source)
+  (let* ((source-path (pathname source))
+         (target-path (make-pathname :type "js"
+                                     :defaults source-path)))
+    (with-open-file (output target-path
+                            :direction :output
+                            :if-exists :supersede)
+      (write-string (parenscript::ps-compile-file source-path) output)))
+  (values))
+
+(defun main (&rest filenames)
+  (unless filenames
+    (terminate -1 "Usage: compile-parenscript filename..."))
+  (mapc #'compile-parenscript-file filenames))

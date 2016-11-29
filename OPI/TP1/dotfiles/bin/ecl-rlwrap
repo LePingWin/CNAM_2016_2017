@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+set -e
+rlwrap ros -L ecl run -l ~/.eclrc "$@"

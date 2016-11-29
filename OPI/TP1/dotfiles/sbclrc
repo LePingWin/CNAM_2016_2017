@@ -1,0 +1,27 @@
+;;; The following lines added by ql:add-to-init-file:
+; #-quicklisp
+; (let ((quicklisp-init (merge-pathnames ".quicklisp/setup.lisp"
+;                                        (user-homedir-pathname))))
+;   (when (probe-file quicklisp-init)
+;     (load quicklisp-init)))
+;;;
+
+; (pushnew "~/lib/asdf/" asdf:*central-registry* :test #'equal)
+
+(defvar *last-package* nil)
+(defvar *cached-prompt* nil)
+
+(defun package-prompt (stream)
+  (when (not (eq *last-package* *package*))
+    (setf *cached-prompt*
+          (format nil "~%[SBCL] ~A> "
+                  (or (first (package-nicknames *package*))
+                      (package-name *package*))))
+    (setf *last-package* *package*))
+  (terpri)
+  (princ *cached-prompt* stream))
+
+(setf sb-int:*repl-prompt-fun* #'package-prompt)
+
+
+; '(ql:update-client)' --eval '(ql:update-all-dists)'

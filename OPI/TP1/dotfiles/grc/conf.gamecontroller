@@ -1,0 +1,26 @@
+regexp=^usage:
+colours=red bold
+=======
+regexp=^.*creating Socket.*$
+colours=black bold
+=======
+regexp=^.*tud.gamecontroller.players.RemotePlayer.*$
+colours=black bold
+=======
+regexp=^.*Sending play messages.*$
+colours=black bold
+=======
+regexp=^.*current state:.*$
+colours=cyan bold
+=======
+regexp=^.*reply from .*:.*$
+colours=green
+=======
+regexp=^.*moves:.*$
+colours=green
+=======
+regexp=^.*[iI]llegal.*$
+colours=red bold
+=======
+regexp=^.*Game over!.*$
+colours=cyan

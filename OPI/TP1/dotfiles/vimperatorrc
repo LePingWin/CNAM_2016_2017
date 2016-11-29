@@ -1,0 +1,37 @@
+" gotta go fast
+nnoremap j 6j
+nnoremap k 6k
+
+" remove gui cruft
+set gui=nonavigation,tabs
+
+" my eyes are bad
+highlight CmdLine    font: normal 15px 'Menlo' !important; background: white !important; padding: 0px 10px 0px 0px;
+highlight CmdLine>*  font: normal 15px 'Menlo' !important;
+highlight StatusLine font: normal 15px 'Menlo' !important; padding: 2px 10px 2px 0px;
+
+highlight CmdOutput  font: normal 13px 'Menlo' !important;
+highlight CompItem   font: normal 13px 'Menlo' !important;
+highlight CompTitle  font: normal 13px 'Menlo' !important;
+
+" I never use marks, but always use quickmarks.
+nnoremap "'" go
+nnoremap '"' gn
+
+" Switch tabs with parens
+nnoremap ) :tn<CR>
+nnoremap ( :tp<CR>
+
+" YES YES YES REMOVE THE IDIOCY
+nnoremap <bs> <nop>
+
+" Clear search highlighting and normal highlighting.
+nnoremap ,<space> <esc>:noh<CR>
+
+" unfuck ublock
+style -name ublick * #nav-bar * { visibility: visible; }
+
+" unfuck completions for ff49
+js services.services.autoCompleteSearch.class_="@mozilla.org/autocomplete/search;1?name=unifiedcomplete"
+
+normal <esc>

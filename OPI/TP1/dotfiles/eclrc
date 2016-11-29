@@ -1,0 +1,16 @@
+(setf compiler:*user-cc-flags* "-Wno-shift-negative-value")
+
+(defvar *last-package* nil)
+(defvar *cached-prompt* nil)
+
+(defun sjl-prompt ()
+  (when (not (eq *last-package* *package*))
+    (setf *cached-prompt*
+          (format nil "~%[ECL] ~A> "
+                  (or (first (package-nicknames *package*))
+                      (package-name *package*))))
+    (setf *last-package* *package*))
+  (terpri)
+  (princ *cached-prompt*))
+
+(setf system:*tpl-prompt-hook* #'sjl-prompt)

@@ -1,0 +1,1689 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<< /F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R >>
+endobj
+2 0 obj
+<< /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font >>
+endobj
+3 0 obj
+<< /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font >>
+endobj
+4 0 obj
+<< /BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font >>
+endobj
+5 0 obj
+<< /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font >>
+endobj
+6 0 obj
+<< /Contents 49 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 48 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+7 0 obj
+<< /Contents 50 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 48 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+8 0 obj
+<< /Contents 51 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 48 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+9 0 obj
+<< /Contents 52 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 48 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+10 0 obj
+<< /Contents 53 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 48 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+11 0 obj
+<< /Contents 54 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 48 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+12 0 obj
+<< /Outlines 14 0 R /PageLabels 55 0 R /PageMode /UseNone /Pages 48 0 R /Type /Catalog >>
+endobj
+13 0 obj
+<< /Author () /CreationDate (D:20161117121858-01'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20161117121858-01'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (TP VCS) /Trapped /False >>
+endobj
+14 0 obj
+<< /Count 33 /First 15 0 R /Last 47 0 R /Type /Outlines >>
+endobj
+15 0 obj
+<< /Dest [ 6 0 R /XYZ 62.69291 711.0236 0 ] /Next 16 0 R /Parent 14 0 R /Title (ETAPE 1) >>
+endobj
+16 0 obj
+<< /Dest [ 6 0 R /XYZ 62.69291 596.8236 0 ] /Next 17 0 R /Parent 14 0 R /Prev 15 0 R /Title (ETAPE 2) >>
+endobj
+17 0 obj
+<< /Dest [ 6 0 R /XYZ 62.69291 506.6236 0 ] /Next 18 0 R /Parent 14 0 R /Prev 16 0 R /Title (ETAPE 3) >>
+endobj
+18 0 obj
+<< /Dest [ 6 0 R /XYZ 62.69291 440.4236 0 ] /Next 19 0 R /Parent 14 0 R /Prev 17 0 R /Title (ETAPE 4) >>
+endobj
+19 0 obj
+<< /Dest [ 6 0 R /XYZ 62.69291 350.2236 0 ] /Next 20 0 R /Parent 14 0 R /Prev 18 0 R /Title (ETAPE 5) >>
+endobj
+20 0 obj
+<< /Dest [ 6 0 R /XYZ 62.69291 260.0236 0 ] /Next 21 0 R /Parent 14 0 R /Prev 19 0 R /Title (ETAPE 6) >>
+endobj
+21 0 obj
+<< /Dest [ 7 0 R /XYZ 62.69291 747.0236 0 ] /Next 22 0 R /Parent 14 0 R /Prev 20 0 R /Title (ETAPE 7) >>
+endobj
+22 0 obj
+<< /Dest [ 7 0 R /XYZ 62.69291 680.8236 0 ] /Next 23 0 R /Parent 14 0 R /Prev 21 0 R /Title (ETAPE 8) >>
+endobj
+23 0 obj
+<< /Dest [ 7 0 R /XYZ 62.69291 614.6236 0 ] /Next 24 0 R /Parent 14 0 R /Prev 22 0 R /Title (ETAPE 9) >>
+endobj
+24 0 obj
+<< /Dest [ 7 0 R /XYZ 62.69291 464.4236 0 ] /Next 25 0 R /Parent 14 0 R /Prev 23 0 R /Title (ETAPE 10) >>
+endobj
+25 0 obj
+<< /Dest [ 7 0 R /XYZ 62.69291 302.2236 0 ] /Next 26 0 R /Parent 14 0 R /Prev 24 0 R /Title (ETAPE 11) >>
+endobj
+26 0 obj
+<< /Dest [ 8 0 R /XYZ 62.69291 637.8236 0 ] /Next 27 0 R /Parent 14 0 R /Prev 25 0 R /Title (ETAPE 12) >>
+endobj
+27 0 obj
+<< /Dest [ 8 0 R /XYZ 62.69291 559.6236 0 ] /Next 28 0 R /Parent 14 0 R /Prev 26 0 R /Title (ETAPE 13) >>
+endobj
+28 0 obj
+<< /Dest [ 8 0 R /XYZ 62.69291 493.4236 0 ] /Next 29 0 R /Parent 14 0 R /Prev 27 0 R /Title (ETAPE 14) >>
+endobj
+29 0 obj
+<< /Dest [ 8 0 R /XYZ 62.69291 415.2236 0 ] /Next 30 0 R /Parent 14 0 R /Prev 28 0 R /Title (ETAPE 15) >>
+endobj
+30 0 obj
+<< /Dest [ 8 0 R /XYZ 62.69291 325.0236 0 ] /Next 31 0 R /Parent 14 0 R /Prev 29 0 R /Title (ETAPE 16) >>
+endobj
+31 0 obj
+<< /Dest [ 8 0 R /XYZ 62.69291 258.8236 0 ] /Next 32 0 R /Parent 14 0 R /Prev 30 0 R /Title (ETAPE 17) >>
+endobj
+32 0 obj
+<< /Dest [ 8 0 R /XYZ 62.69291 148.6236 0 ] /Next 33 0 R /Parent 14 0 R /Prev 31 0 R /Title (ETAPE 18) >>
+endobj
+33 0 obj
+<< /Dest [ 9 0 R /XYZ 62.69291 697.8236 0 ] /Next 34 0 R /Parent 14 0 R /Prev 32 0 R /Title (ETAPE 19) >>
+endobj
+34 0 obj
+<< /Dest [ 9 0 R /XYZ 62.69291 619.6236 0 ] /Next 35 0 R /Parent 14 0 R /Prev 33 0 R /Title (ETAPE 20) >>
+endobj
+35 0 obj
+<< /Dest [ 9 0 R /XYZ 62.69291 481.4236 0 ] /Next 36 0 R /Parent 14 0 R /Prev 34 0 R /Title (ETAPE 21) >>
+endobj
+36 0 obj
+<< /Dest [ 9 0 R /XYZ 62.69291 391.2236 0 ] /Next 37 0 R /Parent 14 0 R /Prev 35 0 R /Title (ETAPE 22) >>
+endobj
+37 0 obj
+<< /Dest [ 9 0 R /XYZ 62.69291 325.0236 0 ] /Next 38 0 R /Parent 14 0 R /Prev 36 0 R /Title (ETAPE 23) >>
+endobj
+38 0 obj
+<< /Dest [ 9 0 R /XYZ 62.69291 234.8236 0 ] /Next 39 0 R /Parent 14 0 R /Prev 37 0 R /Title (ETAPE 24) >>
+endobj
+39 0 obj
+<< /Dest [ 10 0 R /XYZ 62.69291 697.8236 0 ] /Next 40 0 R /Parent 14 0 R /Prev 38 0 R /Title (ETAPE 25) >>
+endobj
+40 0 obj
+<< /Dest [ 10 0 R /XYZ 62.69291 607.6236 0 ] /Next 41 0 R /Parent 14 0 R /Prev 39 0 R /Title (ETAPE 26) >>
+endobj
+41 0 obj
+<< /Dest [ 10 0 R /XYZ 62.69291 145.4236 0 ] /Next 42 0 R /Parent 14 0 R /Prev 40 0 R /Title (ETAPE 27) >>
+endobj
+42 0 obj
+<< /Dest [ 11 0 R /XYZ 62.69291 697.8236 0 ] /Next 43 0 R /Parent 14 0 R /Prev 41 0 R /Title (ETAPE 28) >>
+endobj
+43 0 obj
+<< /Dest [ 11 0 R /XYZ 62.69291 619.6236 0 ] /Next 44 0 R /Parent 14 0 R /Prev 42 0 R /Title (ETAPE 29) >>
+endobj
+44 0 obj
+<< /Dest [ 11 0 R /XYZ 62.69291 553.4236 0 ] /Next 45 0 R /Parent 14 0 R /Prev 43 0 R /Title (ETAPE 30) >>
+endobj
+45 0 obj
+<< /Dest [ 11 0 R /XYZ 62.69291 487.2236 0 ] /Next 46 0 R /Parent 14 0 R /Prev 44 0 R /Title (ETAPE 31) >>
+endobj
+46 0 obj
+<< /Dest [ 11 0 R /XYZ 62.69291 421.0236 0 ] /Next 47 0 R /Parent 14 0 R /Prev 45 0 R /Title (ETAPE 32) >>
+endobj
+47 0 obj
+<< /Dest [ 11 0 R /XYZ 62.69291 354.8236 0 ] /Parent 14 0 R /Prev 46 0 R /Title (ETAPE 33) >>
+endobj
+48 0 obj
+<< /Count 6 /Kids [ 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R ] /Type /Pages >>
+endobj
+49 0 obj
+<< /Length 5056 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 723.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 198.8249 0 Td (TP VCS) Tj T* -198.8249 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 690.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 608.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 504 72 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 48 36 12 12 re f*
+BT 1 0 0 1 0 50 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (LBI) Tj (>) Tj (~$ mkdir TP-VCS) Tj T* (<) Tj (LBI) Tj (>) Tj (~$ ) Tj 0 .501961 0 rg (cd) Tj 0 0 0 rg ( TP-VCS) Tj T* (<) Tj (LBI) Tj (>) Tj (~/TP-VCS hg clone --noupdate https:://bitbucket.org/nicph/tp-vcs-template ref) Tj T* (<) Tj (LBI) Tj (>) Tj (~/TP-VCS ls) Tj T* (ref) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 575.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 518.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS $ hg clone ref Aurelie) Tj T* (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS $ ls) Tj T* (<) Tj (Aurelie) Tj (>) Tj ( ref) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 485.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 452.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS $ vi Aurelie/.hg/hgrc) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 419.4236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 362.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 120 24 12 12 re f*
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS $ ) Tj 0 .501961 0 rg (cd) Tj 0 0 0 rg ( Aurelie) Tj T* (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ touch AUTHORS.txt) Tj T* (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ vi AUTHORS.txt) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 329.2236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 272.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 246 12 180 12 re f*
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ hg add AUTHORS.txt) Tj T* (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ hg commit -m ) Tj .729412 .129412 .129412 rg ("Ajout du fichier AUTHORS.txt") Tj 0 0 0 rg  T* (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ hg push) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 239.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 109.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 120 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 60 72 18 12 re f*
+.960784 .960784 .862745 rg
+n 36 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 24 6 12 re f*
+BT 1 0 0 1 0 98 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS $ hg clone ref Clement) Tj T* (pushing to /home/pingwin/Documents/CNAM_2016_2017/OPI/TP1/EnvTP1/TP_VCS/ref) Tj T* (searching ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( changes) Tj T* (adding changesets) Tj T* (adding manifests) Tj T* (adding file changes) Tj T* (added ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( changesets with ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( changes to ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( files) Tj T* (<) Tj (Clement) Tj (>) Tj (~/TP-VCS $ ls) Tj T* (<) Tj (Clement) Tj (>) Tj ( Clement Aurelie ref) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 767.1969 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Bine Lo\357c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246.9449 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 178.9049 0 Td (17/11/2016) Tj T* -178.9049 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 240.9449 0 m 240.9449 18 l S
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 227.9949 0 Td (1/7) Tj T* -227.9949 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+ 
+endstream
+endobj
+50 0 obj
+<< /Length 5970 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 726.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 692.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS $ vi Clement/.hg/hgrc) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 659.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 8) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 626.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS $ vi Clement/README.rst) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 593.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 9) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 476.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 108 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 246 84 168 12 re f*
+.960784 .960784 .862745 rg
+n 60 48 18 12 re f*
+.960784 .960784 .862745 rg
+n 36 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 0 6 12 re f*
+BT 1 0 0 1 0 86 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg commit -m ) Tj .729412 .129412 .129412 rg ("Modification de README.rst") Tj 0 0 0 rg  T* (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg push) Tj T* (pushing to /home/pingwin/Documents/CNAM_2016_2017/OPI/TP1/EnvTP1/TP_VCS/ref) Tj T* (searching ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( changes) Tj T* (adding changesets) Tj T* (adding manifests) Tj T* (adding file changes) Tj T* (added ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( changesets with ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( changes to ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( files) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 443.4236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 10) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 314.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 474 120 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 60 72 18 12 re f*
+.960784 .960784 .862745 rg
+n 36 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 24 6 12 re f*
+BT 1 0 0 1 0 98 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ hg pull) Tj T* (pulling from /home/pingwin/Documents/CNAM_2016_2017/OPI/TP1/EnvTP1/TP_VCS/ref) Tj T* (searching ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( changes) Tj T* (adding changesets) Tj T* (adding manifests) Tj T* (adding file changes) Tj T* (added ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( changesets with ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( changes to ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( files) Tj T* (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ hg update) Tj T* (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ hg branch LBI-b1) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 281.2236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 11) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 212.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 60 12 18 12 re f*
+BT 1 0 0 1 0 38 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ hg push) Tj T* (pushing to /home/pingwin/Documents/CNAM_2016_2017/OPI/TP1/EnvTP1/TP_VCS/ref) Tj T* (searching ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( changes) Tj T* (aucun changement trouv\351) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 192.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (On r\350gle le probl\350me en faisant un commit de la branche) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 98.82362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 84 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 246 60 168 12 re f*
+.960784 .960784 .862745 rg
+n 60 24 18 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 30 0 132 12 re f*
+.960784 .960784 .862745 rg
+n 342 0 6 12 re f*
+BT 1 0 0 1 0 62 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ hg commit -m ) Tj .729412 .129412 .129412 rg ("Ajout de la branche LBI-b1") Tj 0 0 0 rg  T* (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ hg push) Tj T* (pushing to /home/pingwin/Documents/CNAM_2016_2017/OPI/TP1/EnvTP1/TP_VCS/ref) Tj T* (searching ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( changes) Tj T* (abandon : push creates new remote branches: LBI-b1!) Tj T* .4 .4 .4 rg (\() Tj 0 0 0 rg (use ) Tj .729412 .129412 .129412 rg ('hg push --new-branch') Tj 0 0 0 rg ( to create new remote branches) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 767.1969 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Bine Lo\357c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246.9449 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 178.9049 0 Td (17/11/2016) Tj T* -178.9049 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 240.9449 0 m 240.9449 18 l S
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 227.9949 0 Td (2/7) Tj T* -227.9949 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+ 
+endstream
+endobj
+51 0 obj
+<< /Length 5137 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 649.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 96 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 60 48 18 12 re f*
+.960784 .960784 .862745 rg
+n 36 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 0 6 12 re f*
+BT 1 0 0 1 0 74 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ hg push --new-branch) Tj T* (pushing to /home/pingwin/Documents/CNAM_2016_2017/OPI/TP1/EnvTP1/TP_VCS/ref) Tj T* (searching ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( changes) Tj T* (adding changesets) Tj T* (adding manifests) Tj T* (adding file changes) Tj T* (added ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( changesets with ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( changes to ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( files) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 616.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 571.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg pull) Tj T* (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg update) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 538.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 13) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 505.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ vi rapport.rst) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 472.4236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 14) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 427.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 66 0 78 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ make) Tj T* (rst2pdf -o ) Tj .729412 .129412 .129412 rg ("rapport.pdf") Tj 0 0 0 rg ( -l fr rapport.rst) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 394.2236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 15) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 337.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg status) Tj T* (M rapport.rst) Tj T* (? rapport.pdf) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 304.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 16) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 270.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 558 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 318 0 228 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg commit rapport.rst -m ) Tj .729412 .129412 .129412 rg ("Int\351gration des notes du rapport.rst") Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 237.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 17) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 192.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg status) Tj T* (? rapport.pdf) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 160.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .089987 Tw (On obtient ce r\351sultat car rapport.pdf ne sont pas pr\351sent dans un commit. Lors de l'\351tape 15 : rapport.pdf) Tj T* 0 Tw (et rapport.mst ne sont pas "commit\351", on le corrige donc dans l'\351tape 16 pour rapport.mst) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 127.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 18) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 767.1969 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Bine Lo\357c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246.9449 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 178.9049 0 Td (17/11/2016) Tj T* -178.9049 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 240.9449 0 m 240.9449 18 l S
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 227.9949 0 Td (3/7) Tj T* -227.9949 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+ 
+endstream
+endobj
+52 0 obj
+<< /Length 5837 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 709.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ touch .hgignore) Tj T* (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ vi .hgignore) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 676.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 19) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 631.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 306 0 126 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg add .hgignore) Tj T* (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg commit .hgignore -m ) Tj .729412 .129412 .129412 rg ("Ajout d'un hgignore") Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 598.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 20) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 493.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 96 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 60 48 18 12 re f*
+.960784 .960784 .862745 rg
+n 36 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 270 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 324 0 6 12 re f*
+BT 1 0 0 1 0 74 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg push) Tj T* (pushing to /home/pingwin/Documents/CNAM_2016_2017/OPI/TP1/EnvTP1/TP_VCS/ref) Tj T* (searching ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( changes) Tj T* (adding changesets) Tj T* (adding manifests) Tj T* (adding file changes) Tj T* (added ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( changesets with ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( changes to ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( files ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (+1 heads) Tj .4 .4 .4 rg (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 460.4236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 21) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 403.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Julien) Tj (>) Tj (~/TP-VCS $ hg clone ref Julien) Tj T* (<) Tj (Julien) Tj (>) Tj (~/TP-VCS $ ls) Tj T* (Aurelie  Clement  Julien  ref) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 370.2236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 22) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 337.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Julien) Tj (>) Tj (~/TP-VCS $ vi Clement/.hg/hgrc) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 304.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 23) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 246.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 114 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 300 0 6 12 re f*
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Julien) Tj (>) Tj (~/TP-VCS $ ) Tj 0 .501961 0 rg (cd) Tj 0 0 0 rg ( Julien) Tj T* (<) Tj (Julien) Tj (>) Tj (~/TP-VCS/Julien $ hg update LBI-b1) Tj T* .4 .4 .4 rg (1) Tj 0 0 0 rg ( files updated, ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg ( files merged, ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( files removed, ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg ( files unresolved) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 213.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 24) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 108.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 96 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 234 60 156 12 re f*
+.960784 .960784 .862745 rg
+n 60 24 18 12 re f*
+BT 1 0 0 1 0 74 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Julien) Tj (>) Tj (~/TP-VCS/Julien $ vi rapport.rst) Tj T* (<) Tj (Julien) Tj (>) Tj (~/TP-VCS/Julien $ hg commit -m ) Tj .729412 .129412 .129412 rg ("Modification rapport.rst") Tj 0 0 0 rg  T* (<) Tj (Julien) Tj (>) Tj (~/TP-VCS/Julien $ hg push) Tj T* (pushing to /home/pingwin/Documents/CNAM_2016_2017/OPI/TP1/EnvTP1/TP_VCS/ref) Tj T* (searching ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( changes) Tj T* (adding changesets) Tj T* (adding manifests) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 767.1969 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Bine Lo\357c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246.9449 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 178.9049 0 Td (17/11/2016) Tj T* -178.9049 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 240.9449 0 m 240.9449 18 l S
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 227.9949 0 Td (4/7) Tj T* -227.9949 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+ 
+endstream
+endobj
+53 0 obj
+<< /Length 5229 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 709.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 36 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 0 6 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (adding file changes) Tj T* (added ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( changesets with ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( changes to ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( files) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 676.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 25) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 619.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 300 0 6 12 re f*
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg pull) Tj T* (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg update --clean LBI-b1) Tj T* .4 .4 .4 rg (1) Tj 0 0 0 rg ( files updated, ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg ( files merged, ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( files removed, ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg ( files unresolved) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 586.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 26) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 157.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 420 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 126 324 12 12 re f*
+.960784 .960784 .862745 rg
+n 198 324 24 12 re f*
+.960784 .960784 .862745 rg
+n 126 252 12 12 re f*
+.960784 .960784 .862745 rg
+n 198 252 24 12 re f*
+.960784 .960784 .862745 rg
+n 126 192 12 12 re f*
+.960784 .960784 .862745 rg
+n 198 192 24 12 re f*
+.960784 .960784 .862745 rg
+n 126 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 198 132 24 12 re f*
+.960784 .960784 .862745 rg
+n 126 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 198 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 126 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 198 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 216 0 6 12 re f*
+BT 1 0 0 1 0 398 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg log -f) Tj T* (changeset:   7:6103ffafa9e1) Tj T* (branch:      LBI-b1) Tj T* (tag:         tip) Tj T* (parent:      4:d68304d8aa19) Tj T* (user:        Julien ) Tj (<) Tj (jdoe@example.com) Tj (>) Tj  T* (date:        Thu Nov ) Tj .4 .4 .4 rg (17) Tj 0 0 0 rg ( 11:54:39 ) Tj .4 .4 .4 rg (2016) Tj 0 0 0 rg ( +0100) Tj T* (summary:     Modification rapport.rst) Tj T*  T* (changeset:   4:d68304d8aa19) Tj T* (branch:      LBI-b1) Tj T* (user:        Aurelie ) Tj (<) Tj (jdoe@example.com) Tj (>) Tj  T* (date:        Thu Nov ) Tj .4 .4 .4 rg (17) Tj 0 0 0 rg ( 11:15:07 ) Tj .4 .4 .4 rg (2016) Tj 0 0 0 rg ( +0100) Tj T* (summary:     Ajout de la branche LBI-b1) Tj T*  T* (changeset:   3:4614223cac66) Tj T* (user:        Clement ) Tj (<) Tj (jdoe@example.com) Tj (>) Tj  T* (date:        Thu Nov ) Tj .4 .4 .4 rg (17) Tj 0 0 0 rg ( 11:00:20 ) Tj .4 .4 .4 rg (2016) Tj 0 0 0 rg ( +0100) Tj T* (summary:     Modification de README.rst) Tj T*  T* (changeset:   2:b93ae8b9b954) Tj T* (user:        Aurelie ) Tj (<) Tj (jdoe@example.com) Tj (>) Tj  T* (date:        Thu Nov ) Tj .4 .4 .4 rg (17) Tj 0 0 0 rg ( 10:30:28 ) Tj .4 .4 .4 rg (2016) Tj 0 0 0 rg ( +0100) Tj T* (summary:     Ajout du fichier AUTHORS.txt) Tj T*  T* (changeset:   1:de233068e18a) Tj T* (user:        nicph) Tj T* (date:        Thu Nov ) Tj .4 .4 .4 rg (17) Tj 0 0 0 rg ( 07:41:31 ) Tj .4 .4 .4 rg (2016) Tj 0 0 0 rg ( +0100) Tj T* (summary:     remove section numbering) Tj T*  T* (changeset:   0:d1ee9d72f15b) Tj T* (user:        nicph) Tj T* (date:        Sun Oct ) Tj .4 .4 .4 rg (30) Tj 0 0 0 rg ( 10:42:51 ) Tj .4 .4 .4 rg (2016) Tj 0 0 0 rg ( +0000) Tj T* (summary:     add basic rst template ) Tj 0 0 0 rg (&) Tj 0 0 0 rg ( makefile) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 124.4236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 27) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 767.1969 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Bine Lo\357c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246.9449 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 178.9049 0 Td (17/11/2016) Tj T* -178.9049 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 240.9449 0 m 240.9449 18 l S
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 227.9949 0 Td (5/7) Tj T* -227.9949 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+ 
+endstream
+endobj
+54 0 obj
+<< /Length 4065 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 709.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg diff -c -1) Tj T* (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg diff -r -default) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 676.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 28) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 631.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 246 0 132 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ vi rapport.rst) Tj T* (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg commit -m ) Tj .729412 .129412 .129412 rg ("Modification rapport") Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 598.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 29) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 565.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Julien) Tj (>) Tj (~/TP-VCS/Julien $ hg log) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 532.4236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 30) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 499.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Julien) Tj (>) Tj (~/TP-VCS/Julien $ vi rapport.rst) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 466.2236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 31) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 433.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 234 0 132 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Julien) Tj (>) Tj (~/TP-VCS/Julien $ hg commit -m ) Tj .729412 .129412 .129412 rg ("Modification rapport") Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 400.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 32) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 366.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Clement) Tj (>) Tj (~/TP-VCS/Clement $ hg push) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 333.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 33) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 300.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Julien) Tj (>) Tj (~/TP-VCS/Julien $ hg push) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 292.6236 cm
+Q
+q
+1 0 0 1 56.69291 767.1969 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Bine Lo\357c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246.9449 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 178.9049 0 Td (17/11/2016) Tj T* -178.9049 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 240.9449 0 m 240.9449 18 l S
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 227.9949 0 Td (6/7) Tj T* -227.9949 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+ 
+endstream
+endobj
+55 0 obj
+<< /Nums [ 0 56 0 R 1 57 0 R 2 58 0 R 3 59 0 R 4 60 0 R 
+  5 61 0 R ] >>
+endobj
+56 0 obj
+<< /S /D /St 1 >>
+endobj
+57 0 obj
+<< /S /D /St 2 >>
+endobj
+58 0 obj
+<< /S /D /St 3 >>
+endobj
+59 0 obj
+<< /S /D /St 4 >>
+endobj
+60 0 obj
+<< /S /D /St 5 >>
+endobj
+61 0 obj
+<< /S /D /St 6 >>
+endobj
+xref
+0 62
+0000000000 65535 f
+0000000075 00000 n
+0000000139 00000 n
+0000000249 00000 n
+0000000364 00000 n
+0000000472 00000 n
+0000000585 00000 n
+0000000794 00000 n
+0000001003 00000 n
+0000001212 00000 n
+0000001421 00000 n
+0000001631 00000 n
+0000001841 00000 n
+0000001950 00000 n
+0000002218 00000 n
+0000002296 00000 n
+0000002407 00000 n
+0000002531 00000 n
+0000002655 00000 n
+0000002779 00000 n
+0000002903 00000 n
+0000003027 00000 n
+0000003151 00000 n
+0000003275 00000 n
+0000003399 00000 n
+0000003524 00000 n
+0000003649 00000 n
+0000003774 00000 n
+0000003899 00000 n
+0000004024 00000 n
+0000004149 00000 n
+0000004274 00000 n
+0000004399 00000 n
+0000004524 00000 n
+0000004649 00000 n
+0000004774 00000 n
+0000004899 00000 n
+0000005024 00000 n
+0000005149 00000 n
+0000005274 00000 n
+0000005400 00000 n
+0000005526 00000 n
+0000005652 00000 n
+0000005778 00000 n
+0000005904 00000 n
+0000006030 00000 n
+0000006156 00000 n
+0000006282 00000 n
+0000006395 00000 n
+0000006490 00000 n
+0000011603 00000 n
+0000017630 00000 n
+0000022824 00000 n
+0000028718 00000 n
+0000034004 00000 n
+0000038126 00000 n
+0000038219 00000 n
+0000038256 00000 n
+0000038293 00000 n
+0000038330 00000 n
+0000038367 00000 n
+0000038404 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+ [(g\353\220\333+\031\250\235\024\333fa\033\020\030\035) (g\353\220\333+\031\250\235\024\333fa\033\020\030\035)]
+ /Info 13 0 R /Root 12 0 R /Size 62 >>
+startxref
+38441
+%%EOF

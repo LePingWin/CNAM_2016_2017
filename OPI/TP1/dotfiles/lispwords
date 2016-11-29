@@ -1,0 +1,72 @@
+; unfuck normal shit
+(1 if)
+(-1 loop)
+(2 defmethod)
+(2 define-compiler-macro)
+(2 with-accessors)
+(0 :use :export :documentation)
+(1 :shadowing-import-from :import-from)
+(1 symbol-macrolet)
+(1 print-unreadable-object)
+(1 pprint-logical-block)
+(2 defmacro)
+(1 multiple-value-call) ; maybe not...
+
+; my own weird things
+(1 make-array)
+(1 make-instance)
+(1 dis)
+(1 do-array)
+(1 recursively)
+(2 when-found)
+
+; fiveam
+(1 test)
+
+; optima/trivia
+(1 match match* ematch ematch*)
+
+; defstar
+(2 defun*)
+(1 labels* flet*)
+(1 *let)
+
+; alexandria / utils
+(1 switch eswitch cswitch)
+(1 while until)
+(1 with-gensyms)
+(1 once-only)
+(1 dohash)
+
+; arrows
+(1 -> ->> -<> -<>>)
+
+; sketch
+(1 with-pen with-font)
+(2 defsketch)
+
+; sbcl
+(1 with-profiling)
+
+; policy-cond
+(1 policy-if)
+
+; charms
+(1 with-curses)
+
+
+; dissect
+(1 with-capped-stack with-truncated-stack)
+
+; function-cache
+(2 defcached)
+
+; cffi
+(2 defcfun)
+(3 defcallback)
+
+; maxpc
+(2 =destructure)
+
+; smug
+(1 .let*)

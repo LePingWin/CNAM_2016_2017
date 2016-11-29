@@ -1,0 +1,119 @@
+#!/usr/bin/env python
+
+from __future__ import print_function
+import collections
+import sys
+import subprocess
+import pprint
+
+hg_dir = sys.argv[1]
+git_dir = sys.argv[2]
+
+nodetempl = "--template={node}\\n"
+prettytempl = '--pretty=format:%H'
+
+def log(msg):
+    sys.stderr.write(str(msg) + '\n')
+    sys.stderr.flush()
+
+def die(msg):
+    sys.stderr.write(msg + '\n')
+    sys.exit(1)
+
+def hg(*args):
+    l = ["hg", "--repository", hg_dir] + list(args)
+    return subprocess.check_output(l).strip()
+
+def git(*args):
+    l = ["git", "-C", git_dir] + list(args)
+    return subprocess.check_output(l).strip()
+
+def find_hg_root_revision():
+    rev = hg('log', '-r', 'roots(all())', nodetempl).split()
+    if len(rev) != 1:
+        die("Can't determine a single hg root revision.")
+    return rev[0]
+
+def find_git_root_revision():
+    rev = git('log', '--max-parents=0', prettytempl).split()
+    if len(rev) != 1:
+        die("Can't determine a single git root revision.")
+    return rev[0]
+
+def find_git_children_mapping():
+    result = collections.defaultdict(list)
+    for l in git('rev-list', '--all', '--parents').split('\n'):
+        parts = l.split()
+        for parent in parts[1:]:
+            result[parent].append(parts[0])
+    return result
+
+def find_hg_children_mapping():
+    result = collections.defaultdict(list)
+    for l in hg('log', '--template', '{node} {p1node} {p2node}\\n').split('\n'):
+        parts = l.split()
+        for parent in parts[1:]:
+            if parent != "0000000000000000000000000000000000000":
+                result[parent].append(parts[0])
+    return result
+
+def find_hg_children(rev):
+    return hg('log', '-r', 'children(%s)' % rev, nodetempl).split()
+
+def get_hg_desc(rev):
+    return hg('log', '-r', rev, '--template={desc}')
+
+def get_git_desc(rev):
+    return git('log', '--format=%B', '-n', '1', rev)
+
+hg_root = find_hg_root_revision()
+git_root = find_git_root_revision()
+hg_children_map = find_hg_children_mapping()
+git_children_map = find_git_children_mapping()
+
+# hg -> git
+mapping = {hg_root: git_root}
+todo = [hg_root]
+
+n = 0
+while todo:
+    h = todo.pop()
+    g = mapping[h]
+
+    log("%4d %s %s" % (n, h[:12], g[:12]))
+
+    n += 1
+
+    hg_children = hg_children_map[h]
+    git_children = git_children_map[g]
+
+    if len(hg_children) == len(git_children) == 0:
+        log("Head node, no children...")
+    elif len(hg_children) == len(git_children) == 1:
+        if hg_children[0] not in mapping:
+            mapping[hg_children[0]] = git_children[0]
+            todo.append(hg_children[0])
+    else:
+        log("Multiple (%d hg / %d git) children, attempting to differentiate" %
+            (len(hg_children), len(git_children)))
+        for hg_child in hg_children:
+            hg_desc = get_hg_desc(hg_child)
+            matching = [
+                git_child for git_child in git_children
+                if hg_desc.startswith(get_git_desc(git_child).split('\n')[0])
+            ]
+            if len(matching) == 1:
+                log("Found a match based on message for %s" % hg_child)
+                if hg_child not in mapping:
+                    mapping[hg_child] = matching[0]
+                    todo.append(hg_child)
+                else:
+                    log("already done, skipping...")
+            elif len(matching) == 0:
+                log("no match found...")
+            else:
+                log("multiple matches found...")
+
+
+for h, g in mapping.items():
+    print(g, h)

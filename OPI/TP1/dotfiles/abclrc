@@ -1,0 +1,29 @@
+
+;;; The following lines added by ql:add-to-init-file:
+#-quicklisp
+(let ((quicklisp-init (merge-pathnames ".quicklisp/setup.lisp" (user-homedir-pathname))))
+  (when (probe-file quicklisp-init)
+    (load quicklisp-init)))
+
+(defvar *last-package* nil)
+(defvar *cached-prompt* nil)
+
+(defun package-prompt (stream)
+  (when (not (eq *last-package* *package*))
+    (setf *cached-prompt*
+          (format nil "~%[Armed Bear] ~A> "
+                  (or (first (package-nicknames *package*))
+                      (package-name *package*))))
+    (setf *last-package* *package*))
+  (terpri)
+  (princ *cached-prompt* stream))
+
+(defun debug-prompt (stream)
+  (format stream "[~D] > " top-level::*debug-level*))
+
+(defun sjl-prompt (stream)
+  (if (zerop top-level::*debug-level*)
+    (package-prompt stream)
+    (debug-prompt stream)))
+
+(setf top-level::*repl-prompt-fun* #'sjl-prompt)

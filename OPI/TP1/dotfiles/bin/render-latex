@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -e
+
+LATEX_FILE=$(ls *.latex)
+LATEX_NAME=$(echo $LATEX_FILE | sed -e 's/\..*//')
+
+echo $LATEX_FILE | peat "loltex $LATEX_NAME"

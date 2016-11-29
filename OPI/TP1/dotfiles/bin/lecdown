@@ -1,0 +1,102 @@
+#!/usr/bin/env bash
+
+set -e
+
+echo "<!DOCTYPE html><html><head>"
+
+cat <<EOF
+<meta charset="utf-8" />
+<style media="screen" type="text/css">
+
+body {
+    margin: 50px auto 300px;
+    width: 600px;
+    font: 24px/1.4 "Palatino Linotype";
+    color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Gill Sans";
+}
+
+code {
+    font: 20px Menlo;
+}
+
+p code {
+    border: 1px solid #ccc;
+    background: #fdfdfd;
+    padding: 1px 5px;
+}
+
+pre {
+    border: 1px solid #ddd;
+    background: #fdfdfd;
+    padding: 10px 10px;
+}
+
+a, a:visited {
+    color: #6A1D18;
+    text-decoration: none;
+}
+
+</style>
+EOF
+
+
+cat <<EOF
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+EOF
+
+cat <<EOF
+<script>
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [[',,',',,']],
+    displayMath: [['!!!','!!!']],
+    processEscapes: true
+  },
+  TeX: {
+    equationNumbers: {autoNumber: "AMS"}
+  }
+});
+
+</script>
+EOF
+
+cat <<EOF
+</head><body>
+<div style="height: 0px !important; display: none !important; margin: 0px !important;">
+
+!!!
+\\newcommand{\\qed}{\\square}
+!!!
+
+!!!
+\\newcommand{\\abs}[1]{\\left|#1\\right|}
+!!!
+
+!!!
+\\newcommand{\\R}{\\mathbb{R}}
+!!!
+
+!!!
+\\newcommand{\\limas}[3]{\\lim\\limits_{#1 \\to #2}{#3}}}
+!!!
+
+!!!
+\\newcommand{\\limx}[2]{\\lim\\limits_{x \\to #1}{#2}}
+!!!
+
+!!!
+\\newcommand{\\deriv}[2]{\\frac{d}{d#1}\\left(#2\\right)}
+!!!
+
+</div>
+EOF
+
+
+cat $* | sed -Ee 's_\\_\\\\_g' | pandoc --from markdown --to html
+
+echo "</body></html>"
+

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -e
+
+mvn "$@" | grep --line-buffered -Ev 'Including.*in the shaded jar' | grcat ~/.grc/conf.maven

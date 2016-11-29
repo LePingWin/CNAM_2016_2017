@@ -1,0 +1,122 @@
+#!/usr/bin/env python
+
+import re, sys
+from operator import attrgetter
+
+
+bracket_padding = None
+MAX_LINE_WIDTH = 100
+
+def next_line():
+    return sys.stdin.readline().rstrip('\n')
+
+l = next_line()
+
+while not l.startswith('import '):
+    sys.stdout.write(l + '\n')
+    l = next_line()
+
+class ImportGroup(object):
+    def __init__(self, line):
+        self.main_line = line.rstrip()
+        self.prefix = None
+        self.guts = []
+
+    def set_line(self):
+        """Set the main_line and guts for the given prefix and guts.
+
+        If the import will fit into 100 chars, the short group syntax will be
+        used.  Otherwise the longer one will be used.
+
+        """
+        prefix = self.prefix
+        guts = self.guts
+        guts.sort(key=lambda s: s.lower())
+
+        if not prefix:
+            # This is just a single-line, single-item import, so we don't need
+            # to do any setup.
+            return
+
+        single = '%s{%s%s%s}' % (prefix,
+                                 bracket_padding,
+                                 ', '.join(guts),
+                                 bracket_padding)
+        if len(single) > MAX_LINE_WIDTH:
+            self.main_line = prefix + '{'
+            self.guts = guts
+        else:
+            self.main_line = single
+            self.guts = []
+
+    def slurp(self):
+        global l, bracket_padding
+
+        line = self.main_line
+        if self.main_line.endswith('}'):
+            # This is a line like: import foo.{ a, b, c }
+            if bracket_padding is None:
+                if line[line.index("{") + 1] == " ":
+                    bracket_padding = " "
+                else:
+                    bracket_padding = ""
+
+            prefix, rest = line.split('{', 1)
+
+            guts = re.findall(r"\w+ *=> *\w+|\w+", rest)
+
+            self.prefix = prefix
+            self.guts = guts
+
+            l = next_line()
+        elif line.endswith('{'):
+            # This is the first line of a multi-line set
+            prefix = line.rstrip('{')
+            guts = []
+            while True:
+                l = next_line()
+                if l.rstrip().endswith('}'):
+                    l = next_line()
+                    break
+                else:
+                    guts.append(l.strip().rstrip(','))
+
+            self.prefix = prefix
+            self.guts = guts
+        else:
+            # Just a normal single import line, pass it on.
+            l = next_line()
+
+    def spit(self):
+        self.set_line()
+
+        sys.stdout.write(self.main_line + '\n')
+
+        if self.guts:
+            self.guts.sort(key=lambda g: g.lower())
+            sys.stdout.write('  ' +
+                             ',\n  '.join(self.guts) +
+                             '\n}\n')
+
+    def key(self):
+        return self.main_line.lower().replace('{', '@')
+
+imports = []
+while l.startswith('import '):
+    ig = ImportGroup(l)
+    ig.slurp()
+    imports.append(ig)
+
+if bracket_padding is None:
+    bracket_padding = " "
+
+imports.sort(key=lambda ig: ig.key())
+
+for i in imports:
+    i.spit()
+
+sys.stdout.write(l + '\n')
+
+for l in sys.stdin.readlines():
+    sys.stdout.write(l)
+

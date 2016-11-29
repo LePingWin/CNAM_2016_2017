@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -e
+
+curl -F 'sprunge=<-' http://paste.stevelosh.com | tr -d '\n' | sed -e 's_sprunge-stevelosh.herokuapp.com_http://paste.stevelosh.com_' | pbcopy
+echo
+curl -s "`pbpaste`"
+tput bold
+echo ""
+echo "Copied URL `pbpaste` to clipboard"

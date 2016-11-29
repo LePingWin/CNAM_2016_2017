@@ -1,0 +1,408 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<< /F1 2 0 R /F2 3 0 R /F3 4 0 R >>
+endobj
+2 0 obj
+<< /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font >>
+endobj
+3 0 obj
+<< /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font >>
+endobj
+4 0 obj
+<< /BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font >>
+endobj
+5 0 obj
+<< /Contents 18 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 17 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+6 0 obj
+<< /Contents 19 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 17 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+7 0 obj
+<< /Outlines 9 0 R /PageLabels 20 0 R /PageMode /UseNone /Pages 17 0 R /Type /Catalog >>
+endobj
+8 0 obj
+<< /Author () /CreationDate (D:20161117104007-01'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20161117104007-01'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (TP VCS) /Trapped /False >>
+endobj
+9 0 obj
+<< /Count 7 /First 10 0 R /Last 16 0 R /Type /Outlines >>
+endobj
+10 0 obj
+<< /Dest [ 5 0 R /XYZ 62.69291 711.0236 0 ] /Next 11 0 R /Parent 9 0 R /Title (ETAPE 1) >>
+endobj
+11 0 obj
+<< /Dest [ 5 0 R /XYZ 62.69291 596.8236 0 ] /Next 12 0 R /Parent 9 0 R /Prev 10 0 R /Title (ETAPE 2) >>
+endobj
+12 0 obj
+<< /Dest [ 5 0 R /XYZ 62.69291 506.6236 0 ] /Next 13 0 R /Parent 9 0 R /Prev 11 0 R /Title (ETAPE 3) >>
+endobj
+13 0 obj
+<< /Dest [ 5 0 R /XYZ 62.69291 440.4236 0 ] /Next 14 0 R /Parent 9 0 R /Prev 12 0 R /Title (ETAPE 4) >>
+endobj
+14 0 obj
+<< /Dest [ 5 0 R /XYZ 62.69291 350.2236 0 ] /Next 15 0 R /Parent 9 0 R /Prev 13 0 R /Title (ETAPE 5) >>
+endobj
+15 0 obj
+<< /Dest [ 5 0 R /XYZ 62.69291 260.0236 0 ] /Next 16 0 R /Parent 9 0 R /Prev 14 0 R /Title (ETAPE 6) >>
+endobj
+16 0 obj
+<< /Dest [ 5 0 R /XYZ 62.69291 227.0236 0 ] /Parent 9 0 R /Prev 15 0 R /Title (Section 2) >>
+endobj
+17 0 obj
+<< /Count 2 /Kids [ 5 0 R 6 0 R ] /Type /Pages >>
+endobj
+18 0 obj
+<< /Length 4795 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 723.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 198.8249 0 Td (TP VCS) Tj T* -198.8249 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 690.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 608.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 504 72 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 48 36 12 12 re f*
+BT 1 0 0 1 0 50 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (LBI) Tj (>) Tj (~$ mkdir TP-VCS) Tj T* (<) Tj (LBI) Tj (>) Tj (~$ ) Tj 0 .501961 0 rg (cd) Tj 0 0 0 rg ( TP-VCS) Tj T* (<) Tj (LBI) Tj (>) Tj (~/TP-VCS hg clone --noupdate https:://bitbucket.org/nicph/tp-vcs-template ref) Tj T* (<) Tj (LBI) Tj (>) Tj (~/TP-VCS ls) Tj T* (ref) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 575.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 518.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS $ hg clone ref Aurelie) Tj T* (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS $ ls) Tj T* (<) Tj (Aurelie) Tj (>) Tj ( ref) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 485.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 452.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS $ vi .hg/.hgrc) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 419.4236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 362.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 120 24 12 12 re f*
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS $ ) Tj 0 .501961 0 rg (cd) Tj 0 0 0 rg ( Aurelie) Tj T* (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ touch AUTHORS.txt) Tj T* (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ vi AUTHORS.txt) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 329.2236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 272.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 246 12 180 12 re f*
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ hg add AUTHORS.txt) Tj T* (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ hg commit -m ) Tj .729412 .129412 .129412 rg ("Ajout du fichier AUTHORS.txt") Tj 0 0 0 rg  T* (<) Tj (Aurelie) Tj (>) Tj (~/TP-VCS/Aurelie $ hg push) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 239.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ETAPE 6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 206.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Section 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 140.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 1.424651 Tw (Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et) Tj T* 0 Tw .22561 Tw (dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex) Tj T* 0 Tw 1.572651 Tw (ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu) Tj T* 0 Tw 1.642126 Tw (fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt) Tj T* 0 Tw (mollit anim id est laborum.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 767.1969 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Bine Lo\357c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246.9449 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 178.9049 0 Td (17/11/2016) Tj T* -178.9049 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 240.9449 0 m 240.9449 18 l S
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 227.9949 0 Td (1/2) Tj T* -227.9949 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+ 
+endstream
+endobj
+19 0 obj
+<< /Length 1216 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 709.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F3 10 Tf 12 TL ($ hg status) Tj T* (M rapport.rst) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 701.8236 cm
+Q
+q
+1 0 0 1 56.69291 767.1969 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Bine Lo\357c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246.9449 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 178.9049 0 Td (17/11/2016) Tj T* -178.9049 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 240.9449 0 m 240.9449 18 l S
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+1 1 1 rg
+n 0 18 481.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 227.9949 0 Td (2/2) Tj T* -227.9949 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 18 m 481.8898 18 l S
+n 0 0 m 481.8898 0 l S
+n 0 0 m 0 18 l S
+n 481.8898 0 m 481.8898 18 l S
+Q
+Q
+ 
+endstream
+endobj
+20 0 obj
+<< /Nums [ 0 21 0 R 1 22 0 R ] >>
+endobj
+21 0 obj
+<< /S /D /St 1 >>
+endobj
+22 0 obj
+<< /S /D /St 2 >>
+endobj
+xref
+0 23
+0000000000 65535 f
+0000000075 00000 n
+0000000129 00000 n
+0000000239 00000 n
+0000000354 00000 n
+0000000462 00000 n
+0000000671 00000 n
+0000000880 00000 n
+0000000987 00000 n
+0000001254 00000 n
+0000001330 00000 n
+0000001440 00000 n
+0000001563 00000 n
+0000001686 00000 n
+0000001809 00000 n
+0000001932 00000 n
+0000002055 00000 n
+0000002167 00000 n
+0000002236 00000 n
+0000007088 00000 n
+0000008361 00000 n
+0000008414 00000 n
+0000008451 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+ [(\343\021e*\311s\227q\364.\224\271\253\252\226\267) (\343\021e*\311s\227q\364.\224\271\253\252\226\267)]
+ /Info 8 0 R /Root 7 0 R /Size 23 >>
+startxref
+8488
+%%EOF

@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+set -e
+
+echo GitHub is awful, fixing...
+TAG="$(curl `pbpaste` | grep 'commit-ref' |  grep -v 'sjl' | grep -Eo 'title=".*?"' | cut -d '"' -f2)"
+
+USER="$(echo $TAG | cut -d / -f1)"
+REPO="$(echo $TAG | cut -d / -f2 | cut -d : -f1)"
+BRANCH="$(echo $TAG | cut -d : -f2)"
+
+STRING="'git://github.com/$USER/$REPO.git' --rev '$BRANCH'"
+echo -n "$STRING" | pbcopy
+
+echo Copied the following to the clipboard:
+echo "$STRING"

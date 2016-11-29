@@ -1,0 +1,70 @@
+#!/Users/sjl/.virtualenvs/webscraping/bin/python3
+
+import sys
+import requests
+from bs4 import BeautifulSoup
+
+
+en_url = 'http://conjugator.reverso.net/conjugation-english-verb-%s.html'
+is_url = 'http://www.verbix.com/webverbix/go.php?T1=%s&Submit=Go&D1=28&H1=128'
+
+def english(word):
+    resp = requests.get(en_url % word).text
+    soup = BeautifulSoup(resp, "html.parser")
+
+    ws = [t.text.strip()
+          for t in soup.find_all(class_="indicative-wrap")[0]
+                       .div
+                       .find_all("i")[1:]]
+    ws[8] = "y'all"
+
+    # fix third person singular
+    v = ws[5]
+    ws[4:6] = ['he', v, 'she', v, 'it', v]
+
+    # fix third person plural
+    v = ws[15]
+    ws[14:15] = ['they ♂', v, 'they ♀', v, 'they ∅', v]
+    vals = [a + ' ' + b for a, b in zip(ws[::2], ws[1::2])]
+
+    return vals
+
+def icelandic(word):
+    resp = requests.get(is_url % word).text
+    soup = BeautifulSoup(resp, "html.parser")
+
+    ws = [t.text.strip()
+          for t in soup.find_all(class_='pure-u-1-2')[0]
+                       .find_all('span')]
+
+    # fix third person singular
+    v = ws[5]
+    ws[4:6] = ['hann', v, 'hún', v, 'það', v]
+
+    v = ws[15]
+    ws[14:15] = ['þeir', v, 'þær', v, 'þau', v]
+    vals = [a + ' ' + b for a, b in zip(ws[::2], ws[1::2])]
+
+    return vals
+
+eng_word = sys.argv[1]
+ice_word = sys.argv[2]
+
+print('to %s\tað %s' % (eng_word, ice_word))
+
+eng = english(eng_word)
+ice = icelandic(ice_word)
+
+for e, i in zip(eng, ice):
+    print('%s\t%s' % (e, i))
+
+print('to %s / að %s\t' % (eng_word, ice_word), end='')
+print('<table>', end='')
+for e, i in zip(eng, ice):
+    e1, e2 = e.rsplit(' ', 1)
+    i1, i2 = i.split(' ')
+
+    print('<tr>', end='')
+    print('<td>%s</td><td>%s</td><td>%s</td><td><b>%s</b></td>' % (e1, e2, i1, i2), end='')
+    print('</tr>', end='')
+print('</table>')

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+PYTHONPATH="" PATH=~/.vim/bullshit:$PATH exec $VIM_BINARY "$@"

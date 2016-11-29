@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -e
+rlwrap ros -L ccl-bin run -l ~/.ccl-init.lisp "$@"
+# /usr/local/bin/ccl "$@"
+

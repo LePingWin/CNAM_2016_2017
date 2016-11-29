@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+set -e
+ccl-rlwrap --eval "(ql:quickload 'nrepl)" --eval "(nrepl:start-server)" "$@"

@@ -1,0 +1,26 @@
+; These are all out here in the middle of goddamned nowhere because the TimL
+; ftplugin won't you disable mappings like any other plugin.  Also this has to
+; be a .tim file because the order of loading goes like this:
+;
+;   ftplugin/*.vim
+;   after/ftplugin/*.vim
+;   ftplugin/*.tim
+;   after/ftplugin/*.tim
+;
+; Kill me.
+
+(execute "silent! nunmap <buffer> cp")
+(execute "silent! nunmap <buffer> cpp")
+(execute "silent! nunmap <buffer> K")
+
+; Eval fuck only knows what.  Toplevel/current form?
+(execute "nnoremap <silent><buffer> <localleader>e :set opfunc=timl#interactive#eval_opfunc<CR>g@")
+
+; Eval buffer
+(execute "nnoremap <buffer> <localleader>b :w<cr>:source %<cr>")
+
+; Man
+(execute "nnoremap <buffer> M :execute 'help' ftplugin#timl#cursor_keyword()<CR>")
+
+; R[E]PL
+(execute "nnoremap <buffer> <localleader>E :TLrepl<CR>")

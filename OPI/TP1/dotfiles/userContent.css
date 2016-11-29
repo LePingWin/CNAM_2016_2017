@@ -1,0 +1,21 @@
+body.sjl-unstyled {
+  width: 800px; margin: 50px auto 200px;
+  font-family: Georgia;
+  font-size: 16px;
+  line-height: 1.4;
+}
+body.sjl-unstyled pre,code {
+  font-family: menlo !important;
+  font-size: 14px;
+  line-height: 1.4;
+}
+body.sjl-unstyled code {
+  background: #eee;
+  padding: 1px 4px;
+}
+body.sjl-unstyled pre {
+  padding: 15px;
+  overflow-x: scroll;
+}
+body.sjl-unstyled h3 { text-decoration: none; }
+body.sjl-unstyled h4 { text-decoration: none; }

@@ -1,0 +1,10 @@
+syntax:literal
+.DS_Store
+cookbook
+banner.txt
+UnityTempFile
+
+syntax:regex
+^tags$
+^tags.bak$
+\.meta$

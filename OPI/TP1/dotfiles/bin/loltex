@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# what a joek
+set -e
+latexmk -C ${1}.latex
+latexmk -pdf ${1}.latex
+# open ${1}.pdf
+
