@@ -842,6 +842,22 @@ ETAPE 63
     <Loic>~/TP-VCS/Loic $ hg pull
     <Loic>~/TP-VCS/Loic hg update 
 
+ETAPE 64
+--------
+
+.. code-block:: sh
+
+    <Aurelie>~/TP-VCS/Aurelie $ hg commit -m "Finalisation rapport"
+    <Aurelie>~/TP-VCS/Aurelie $ hg push
+    pushing to /home/pingwin/Documents/CNAM_2016_2017/OPI/TP1/EnvTP1/TP_VCS/ref
+    searching for changes
+    adding changesets
+    adding manifests
+    adding file changes
+    added 1 changesets with 1 changes to 1 files
+    <Aurelie>~/TP-VCS/Aurelie $ cd src
+    <Aurelie>~/TP-VCS/Aurelie/src make 
+
 ====================
 Extensions
 ====================
