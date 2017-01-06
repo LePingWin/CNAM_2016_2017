@@ -1,5 +1,10 @@
+data/src/rapport.rst.i
+data/src/Makefile.i
+data/AUTHORS.txt.i
+data/LICENSE.txt.i
+data/.hgignore.i
+data/ROADMAP.txt.i
+data/.hgtags.i
 data/README.rst.i
 data/Makefile.i
 data/rapport.rst.i
-data/AUTHORS.txt.i
-data/.hgignore.i

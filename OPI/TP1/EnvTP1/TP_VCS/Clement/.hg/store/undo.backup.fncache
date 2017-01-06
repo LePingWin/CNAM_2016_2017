@@ -1,4 +1,9 @@
-data/Makefile.i
+data/src/rapport.rst.i
+data/src/Makefile.i
 data/AUTHORS.txt.i
-data/rapport.rst.i
+data/LICENSE.txt.i
+data/.hgignore.i
+data/ROADMAP.txt.i
 data/README.rst.i
+data/Makefile.i
+data/rapport.rst.i
