@@ -29,7 +29,7 @@ public class ViperMKII extends Vaisseau {
                 }
         };
         int deg = maxDamage.tirer();
-        System.out.println(SpaceInvaders.getJoueurs().get(0).getPseudo() +" inflige "+deg+" points de dégâts à "+v.getClass().getName());
+        System.out.println(this.getClass().getName()+" de " + SpaceInvaders.getJoueurs().get(0).getPseudo() +" inflige "+deg+" points de dégâts à "+v.getClass().getName());
         v.takeDamage(deg);
         canShoot.remove(maxDamage);
         canShoot.forEach(a -> a.setNbTours(a.getNbTours()-1));

@@ -48,6 +48,10 @@ public class SpaceInvaders {
         populateEnnemis();
     }
 
+    /**
+     * Rempli la liste de Joueurs
+     * @throws ArmurerieException
+     */
     private static void populateJoueurs() throws ArmurerieException{
         ArrayList<Joueur> listJ = new ArrayList<Joueur>();
         listJ.add(new Joueur("Wayne","bruce","Batman"));
@@ -56,6 +60,10 @@ public class SpaceInvaders {
         setJoueurs(listJ);
     }
 
+    /**
+     * Rempli la liste d'ennemis
+     * @throws ArmurerieException
+     */
     private void populateEnnemis()  throws ArmurerieException{
         ArrayList<Vaisseau> listE = new ArrayList<Vaisseau>();
         listE.add(new Slavel());
@@ -86,7 +94,7 @@ public class SpaceInvaders {
      * Gère les tours
      */
     public void nextTurn(){
-        Vaisseau j = getJoueurs().get(0).getVaisseau();
+        Vaisseau joueurVaisseau = getJoueurs().get(0).getVaisseau();
         ArrayList<Vaisseau> ennemis = new ArrayList<Vaisseau>();
 
         //Tri les ennemis en vie
@@ -95,46 +103,58 @@ public class SpaceInvaders {
                 ennemis.add(e);
             }
         }
+        //Recharge celui des vaisseaux
+        if(joueurVaisseau.getPointBouclier() < joueurVaisseau.getMaxPointBouclier()){
+            joueurVaisseau.setPointBouclier(joueurVaisseau.getPointBouclier()+2 > joueurVaisseau.getMaxPointBouclier() ? joueurVaisseau.getMaxPointBouclier() : joueurVaisseau.getPointBouclier()+2);
+            System.out.println("Rechargement du bouclier de "+joueurVaisseau.getClass().getName()+", il a maintenant "+joueurVaisseau.getPointBouclier()+" points de bouclier");
+        }
 
         for (Vaisseau e: ennemis
              ) {
+            //Recharge le bouclier des ennemis
+            if( e.getPointBouclier() < e.getMaxPointBouclier()){
+                e.setPointBouclier(e.getPointBouclier()+2 > e.getMaxPointBouclier() ? e.getMaxPointBouclier() : e.getPointBouclier()+2);
+                System.out.println("Rechargement du bouclier de "+e.getClass().getName()+", il a maintenant "+e.getPointBouclier()+" points de bouclier");
+            }
             //Utilise les aptitudes
             if(e instanceof  IAptitude){
                 ((IAptitude) e).utilise(ennemis);
             }
-            //Recharge le bouclier
-            if(e.getMaxPointBouclier() <= e.getPointBouclier()){
 
-                e.setPointBouclier(e.getPointBouclier()+2 > e.getMaxPointBouclier() ? e.getMaxPointBouclier() : e.getPointBouclier()+2);
-            }
         }
+
 
 
         //Gère les tirs
         Random r = new Random();
         int posTirJoueur = r.nextInt(ennemis.size());
         int posTirEnnemis = 0;
-        for (Vaisseau e: ennemis
+        for (Vaisseau ennemiVaisseau: ennemis
              ) {
             if(posTirEnnemis == posTirJoueur){
-                if(j.isEstDetruit()){
+                if(joueurVaisseau.isEstDetruit()){
                     return;
+
                 }
-                j.attaque(ennemis.get(posTirJoueur));
+                joueurVaisseau.attaque(ennemis.get(posTirJoueur));
             }
-            if(e.isEstDetruit()){
+            if(ennemiVaisseau.isEstDetruit()){
                 break;
             }
-            e.attaque(j);
+            ennemiVaisseau.attaque(joueurVaisseau);
             posTirEnnemis++;
         }
 
     }
 
+    /**
+     * Indique si la partie est terminée
+     * @return vrai si la partie continue
+     */
     public boolean gameOver(){
-        Joueur jo = getJoueurs().get(0);
-        Vaisseau j = jo.getVaisseau();
-        if(j.isEstDetruit()){
+        Joueur joueur = getJoueurs().get(0);
+        Vaisseau joueurVaisseau = joueur.getVaisseau();
+        if(joueurVaisseau.isEstDetruit()){
             return false;
         }
         //Si ennemis en vie on continue
@@ -149,11 +169,16 @@ public class SpaceInvaders {
 
         }
 
-    public static void main(String[] args) throws ArmurerieException {
+    public static void main(String[] args) throws ArmurerieException, InterruptedException {
         SpaceInvaders game = new SpaceInvaders();
+        int nbToursTotal = 0;
         //Routine de jeu
         while (game.gameOver()){
+            nbToursTotal++;
+            System.out.println("Tour n°"+nbToursTotal);
             game.nextTurn();
+            Thread.sleep(2000);
+
         }
 
     }
