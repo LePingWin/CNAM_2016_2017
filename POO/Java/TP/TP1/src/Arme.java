@@ -1,3 +1,5 @@
+import java.util.Random;
+
 /**
  * Created by Loïc on 18/11/2016.
  */
@@ -19,6 +21,17 @@ public class Arme {
      * Type de l'arme
      */
     private Type type;
+
+    /**
+     * Temps de rechargement en nb de tours
+     */
+    private float tempsDeRechargement;
+
+
+    /**
+     * Nombre de tours
+     */
+    private int nbTours;
 
     public String getNom() {
         return nom;
@@ -52,6 +65,22 @@ public class Arme {
         this.type = type;
     }
 
+    public float getTempsDeRechargement() {
+        return tempsDeRechargement;
+    }
+
+    public void setTempsDeRechargement(float tempsDeRechargement) {
+        this.tempsDeRechargement = tempsDeRechargement;
+    }
+
+    public int getNbTours() {
+        return nbTours;
+    }
+
+    public void setNbTours(float nbTours){
+        this.nbTours = Math.round(nbTours);
+    }
+
     /**
      * Types d'armes possibles
      */
@@ -64,17 +93,20 @@ public class Arme {
      * @param degatsMin
      * @param degatsMax
      * @param type
+     * @param tempsDeRechargement
      */
-    public Arme(String nom, int degatsMin, int degatsMax, Type type){
+    public Arme(String nom, int degatsMin, int degatsMax, Type type, float tempsDeRechargement){
         this.nom=nom;
         this.degatsMin = degatsMin;
         this.degatsMax = degatsMax;
         this.type = type;
+        this.tempsDeRechargement = tempsDeRechargement;
+        this.nbTours = Math.round(getTempsDeRechargement());
     }
 
     @Override
     public String toString() {
-        return getNom() + " Type : " + getType() +  " Dégats Max : " + getDegatsMax() + " Dégats Min : " + getDegatsMin();
+        return getNom() + " Type : " + getType() +  " Dégats Max : " + getDegatsMax() + " Dégats Min : " + getDegatsMin() + " Temps de rechargement : "+getTempsDeRechargement();
     }
 
     /**
@@ -94,5 +126,34 @@ public class Arme {
             }
         }
         return false;
+    }
+
+    /**
+     * Determine de le nombres de dégâts infligés
+     * @return
+     */
+    public int tirer(){
+        setNbTours(getNbTours()-1);
+        int tours = getNbTours();
+        if(tours != 0){
+            return 0;
+        }else{
+            Random r = new Random();
+            int degats = getDegatsMin() + r.nextInt(getDegatsMax()- getDegatsMin()+1);
+            this.setNbTours(getTempsDeRechargement());
+            Type typeArme = getType();
+            switch (typeArme){
+                case Direct:
+                    int chance = r.nextInt(10+1);
+                    return chance == 1 ? degats : 0;
+                case Explosif:
+                    chance = r.nextInt(4+1);
+                    this.setNbTours(getTempsDeRechargement()*2);
+                    return chance == 1 ? degats*2 : 0;
+                case Guide:
+                    return getDegatsMin();
+            }
+            return degats;
+        }
     }
 }

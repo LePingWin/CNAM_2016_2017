@@ -3,7 +3,7 @@ import java.util.ArrayList;
 /**
  * Created by Loïc on 18/11/2016.
  */
-public class Vaisseau {
+public abstract class Vaisseau {
     /**
      * Maximum de points de structure
      */
@@ -16,7 +16,7 @@ public class Vaisseau {
     /**
      * Points de structure actuel
      */
-    private int pointStructure = getPointStructure();
+    private int pointStructure = getMaxPointStructure();
     /**
      * Points de bouclier actuel
      */
@@ -30,6 +30,12 @@ public class Vaisseau {
      * Liste d'armes du vaisseau
      */
     private ArrayList<Arme> listArmes = new ArrayList<Arme>();
+
+    public Vaisseau(int maxPointStructure, int maxPointBouclier) {
+        this.maxPointStructure = pointStructure = maxPointStructure;
+        this.maxPointBouclier = pointBouclier = maxPointBouclier;
+
+    }
 
     /**
      * *
@@ -82,16 +88,6 @@ public class Vaisseau {
 
     public void setPointBouclier(int pointBouclier) {
         this.pointBouclier = pointBouclier;
-    }
-
-    /**
-     * Constructeur du vaisseau
-     * @param maxPointStructure
-     * @param maxPointBouclier
-     */
-    public Vaisseau(int maxPointStructure,int maxPointBouclier){
-        this.maxPointStructure = maxPointStructure;
-        this.maxPointBouclier = maxPointBouclier;
     }
 
     /**
@@ -152,6 +148,33 @@ public class Vaisseau {
     }
 
     /**
+     * Gère la répartition des dégâts
+     * @param degats
+     */
+    public void takeDamage(int degats) {
+        int bouclier = getPointBouclier();
+        int structure = getPointStructure();
+        if (bouclier != 0) {
+            if (bouclier >= degats) {
+                setPointBouclier( bouclier - degats);
+                System.out.println(this.getClass().getName() +" reçoit "+degats+" points de dégâts encaissé par le bouclier, il ne lui reste plus que "+ getPointBouclier()+" points de bouclier");
+            } else{
+                int diff = degats-bouclier;
+                setPointBouclier(0);
+                System.out.println(this.getClass().getName() +"n'a plus de bouclier");
+                setPointStructure(structure-diff);
+                System.out.println(this.getClass().getName() +" reçoit "+degats+" points de dégâts");
+            }
+        }
+        if(getPointBouclier() <=0 && getPointStructure()<=0){
+            System.out.println(this.getClass().getName() +" est détruit");
+            setEstDetruit(true);
+
+        }
+
+    }
+
+    /**
      * Renvoi le statut du vaisseau
      */
     public String statut(){
@@ -162,4 +185,10 @@ public class Vaisseau {
     public String toString() {
         return statut() + " Puissance de Feu Moyenne : " + puissanceDeFeuMoyenne();
     }
+
+    /**
+     * Tirer sur un vaisseau
+     * @param v
+     */
+    public abstract void attaque(Vaisseau v);
 }

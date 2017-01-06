@@ -76,11 +76,11 @@ public class Joueur {
      * @param prenom
      * @param pseudo
      */
-    public Joueur(String nom, String prenom, String pseudo){
+    public Joueur(String nom, String prenom, String pseudo) throws ArmurerieException {
         this.nom = formatString(nom);
         this.prenom = formatString(prenom);
         this.pseudo = pseudo;
-        this.vaisseau = new Vaisseau(100,100);
+        this.vaisseau = new ViperMKII();
     }
 
     /**

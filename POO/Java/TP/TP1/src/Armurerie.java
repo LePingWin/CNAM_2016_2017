@@ -31,9 +31,15 @@ public class Armurerie {
      */
     private void init() {
         ArrayList<Arme> listA = new ArrayList<Arme>();
-        listA.add(new Arme("Blaster",5,50, Arme.Type.Direct));
-        listA.add(new Arme("Desintegrator",100,200, Arme.Type.Explosif));
-        listA.add(new Arme("Missiles",50,10, Arme.Type.Guide));
+        listA.add(new Arme("Blaster",5,50, Arme.Type.Direct,1));
+        listA.add(new Arme("Desintegrator",100,200, Arme.Type.Explosif,3));
+        listA.add(new Arme("Missiles",50,10, Arme.Type.Guide,4));
+        listA.add(new Arme("Laser",2,3, Arme.Type.Direct,1));
+        listA.add(new Arme("Hammer",1,8, Arme.Type.Explosif,(float)1.5));
+        listA.add(new Arme("Torpille",3,3, Arme.Type.Guide,2));
+        listA.add(new Arme("Mitrailleuse",2,3, Arme.Type.Direct,1));
+        listA.add(new Arme("EMG",1,7, Arme.Type.Explosif,(float)1.5));
+        listA.add(new Arme("Missile",4,100, Arme.Type.Guide,4));
         setListArmes(listA);
     }
 
