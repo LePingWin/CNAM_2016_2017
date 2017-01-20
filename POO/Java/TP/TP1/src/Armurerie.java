@@ -1,4 +1,7 @@
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * Created by Loïc on 18/11/2016.
@@ -22,8 +25,9 @@ public class Armurerie {
         return instance;
     }
 
-    private Armurerie(){
+    private Armurerie() {
         init();
+        Collections.sort(getListArmes(),new DegatMoyComparateur());
     }
 
     /**

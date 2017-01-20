@@ -156,4 +156,12 @@ public class Arme {
             return degats;
         }
     }
+
+    /**
+     * Renvoi les dégâts moyens de l'arme
+     * @return
+     */
+    public int getAvgDamages(){
+        return (this.getDegatsMax() + this.getDegatsMin())/2;
+    }
 }

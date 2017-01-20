@@ -5,11 +5,15 @@ import java.util.ArrayList;
  */
 public class ViperMKII extends Vaisseau {
 
-    public ViperMKII()throws ArmurerieException {
+    public ViperMKII() {
         super(10, 15);
-        this.addArme(new Arme("Mitrailleuse",2,3, Arme.Type.Direct,1));
-        this.addArme(new Arme("EMG",1,7, Arme.Type.Explosif,(float)1.5));
-        this.addArme(new Arme("Missile",4,100, Arme.Type.Guide,4));
+        try {
+            this.addArme(new Arme("Mitrailleuse",2,3, Arme.Type.Direct,1));
+            this.addArme(new Arme("EMG",1,7, Arme.Type.Explosif,(float)1.5));
+            this.addArme(new Arme("Missile",4,100, Arme.Type.Guide,4));
+        }catch (ArmurerieException e){
+            e.printStackTrace();
+        }
     }
 
     @Override

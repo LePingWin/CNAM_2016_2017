@@ -76,7 +76,7 @@ public class Joueur {
      * @param prenom
      * @param pseudo
      */
-    public Joueur(String nom, String prenom, String pseudo) throws ArmurerieException {
+    public Joueur(String nom, String prenom, String pseudo) {
         this.nom = formatString(nom);
         this.prenom = formatString(prenom);
         this.pseudo = pseudo;

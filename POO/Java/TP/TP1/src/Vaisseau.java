@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.ArrayList;
 
 /**
@@ -183,7 +184,7 @@ public abstract class Vaisseau {
 
     @Override
     public String toString() {
-        return statut() + " Puissance de Feu Moyenne : " + puissanceDeFeuMoyenne();
+        return "Nom du Vaisseau : " + this.getClass().getName() + " " + statut() + " Puissance de Feu Moyenne : " + puissanceDeFeuMoyenne();
     }
 
     /**

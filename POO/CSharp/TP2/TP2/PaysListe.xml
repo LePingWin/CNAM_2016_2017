@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Pays>
+  <Pays>
+    <NumeroPays>1</NumeroPays>
+    <NomFrancais>Royaume Uni</NomFrancais>
+    <NomAnglais>Great Britain</NomAnglais>
+  </Pays>
+  <Pays>
+    <NumeroPays>2</NumeroPays>
+    <NomFrancais>France</NomFrancais>
+    <NomAnglais>France</NomAnglais>
+  </Pays>
+  <Pays>
+    <NumeroPays>3</NumeroPays>
+    <NomFrancais>Allemagne</NomFrancais>
+    <NomAnglais>Germany</NomAnglais>
+  </Pays>
+  <Pays>
+    <NumeroPays>4</NumeroPays>
+    <NomFrancais>Japon</NomFrancais>
+    <NomAnglais>Japan</NomAnglais>
+  </Pays>
+</Pays>

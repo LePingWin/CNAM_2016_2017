@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.ArrayList;
 
 /**
@@ -5,7 +6,7 @@ import java.util.ArrayList;
  */
 public class Dart extends Vaisseau {
 
-    public Dart()throws ArmurerieException {
+    public Dart() throws ArmurerieException {
         super(10, 3);
         this.addArme(new Arme("Laser",2,3, Arme.Type.Direct,1));
     }
